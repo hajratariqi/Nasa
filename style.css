@@ -1,0 +1,11 @@
+@font-face {
+    font-family: poppines;
+    src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: public sans;
+    src: url(./fonts/Public_Sans/);
+}
+body{
+    font-family: poppines;
+}
