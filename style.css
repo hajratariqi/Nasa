@@ -3,9 +3,16 @@
     src: url(./fonts/Poppins/Poppins-Regular.ttf);
 }
 @font-face {
-    font-family: public sans;
-    src: url(./fonts/Public_Sans/);
+    font-family: publicSans;
+    src: url(./fonts/Public_Sans/PublicSans-VariableFont_wght.ttf);
 }
 body{
-    font-family: poppines;
+    font-family:  publicSans !important;
+}
+a{
+    text-decoration: none !important;
+    color: black;
+}
+.live-btn{
+    font-size: 12px !important;
 }
