@@ -1100,7 +1100,7 @@
 
   const SWIPE_THRESHOLD = 40;
   const Default$a = {
-    interval: 8000,
+    interval: 2800,
     keyboard: true,
     slide: false,
     // pause: 'hover',

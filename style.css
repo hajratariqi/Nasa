@@ -12,7 +12,7 @@ body {
 
 a {
   text-decoration: none !important;
-  color: black;
+  color: black !important;
 }
 .upcoming-box p {
   letter-spacing: 5px;
