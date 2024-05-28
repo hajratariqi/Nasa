@@ -6153,6 +6153,7 @@ textarea.form-control-lg {
 .carousel-caption {
   position: absolute;
   right: 15%;
+  z-index: 100;
   bottom: 1.25rem;
   left: 15%;
   padding-top: 1.25rem;
@@ -6783,7 +6784,9 @@ textarea.form-control-lg {
 .bottom-50 {
   bottom: 50% !important;
 }
-
+.bottom-5{
+  bottom: 5%;
+}
 .bottom-100 {
   bottom: 100% !important;
 }

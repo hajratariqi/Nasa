@@ -1100,10 +1100,10 @@
 
   const SWIPE_THRESHOLD = 40;
   const Default$a = {
-    interval: 5000,
+    interval: 8000,
     keyboard: true,
     slide: false,
-    pause: 'hover',
+    // pause: 'hover',
     wrap: true,
     touch: true
   };
@@ -1111,7 +1111,7 @@
     interval: '(number|boolean)',
     keyboard: 'boolean',
     slide: '(boolean|string)',
-    pause: '(string|boolean)',
+    // pause: '(string|boolean)',
     wrap: 'boolean',
     touch: 'boolean'
   };
@@ -1154,7 +1154,21 @@
   const SELECTOR_DATA_SLIDE = '[data-bs-slide], [data-bs-slide-to]';
   const SELECTOR_DATA_RIDE = '[data-bs-ride="carousel"]';
   const POINTER_TYPE_TOUCH = 'touch';
-  const POINTER_TYPE_PEN = 'pen';
+  const POINTER_TYPE_PEN = 'pen'; 
+
+  function applyObjectFit() {
+    const images = document.querySelectorAll(SELECTOR_ITEM_IMG);
+    images.forEach(img => {
+      img.style.objectFit = 'cover';
+    });
+  }
+  
+  // Apply the object-fit on document load and on carousel events
+  document.addEventListener('DOMContentLoaded', applyObjectFit);
+  document.querySelectorAll(SELECTOR_DATA_RIDE).forEach(carousel => {
+    carousel.addEventListener(EVENT_SLIDE, applyObjectFit);
+    carousel.addEventListener(EVENT_SLID, applyObjectFit);
+  });
   /**
    * ------------------------------------------------------------------------
    * Class Definition
