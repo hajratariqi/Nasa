@@ -32,7 +32,9 @@ a {
 .carousel-content {
   margin-bottom: 6%;
 }
-
+img{
+  object-fit: cover;
+}
 .dark-gradient-image {
   position: absolute;
   top: 0;
