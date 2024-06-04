@@ -63,6 +63,9 @@ img{
 .text-darkGray{
   color: #adb5bd;
 }
+.filter-brightness{
+  filter: brightness(0.4);
+}
 /* footer */
 .footer-links > ul > li{
   width: 175px;
