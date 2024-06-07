@@ -91,16 +91,17 @@ img{
 
 
 /* sana section */
-section.m-nasa-img .card{ width: 100%;
-  height: 281px;
+    section.m-nasa-img .card{
+     width: 100%;
+     height: 281px;
      overflow: hidden;
      box-sizing: border-box;
      border: none;
- }
-         section.m-nasa-img .card a{
+     }
+     section.m-nasa-img .card a{
          border: 2px solid transparent;
      }       
-      .card a:focus{
+    .card a:focus{
          border-right: 3px solid #2491FF;
          border-bottom: 3px solid #2491FF;
      }
@@ -174,3 +175,37 @@ section.m-nasa-img .card{ width: 100%;
              gap: .3rem;
          }
         }
+        /* ------------------------------privacy page css-------------------------------- */
+        .privacy-policy{
+          margin-top: 40px;
+      }
+      .detail-arrow a{
+          border-bottom: 1px solid #1b1b1b;
+          color:carbon-black;
+      }
+      .seperator{
+          width: 100%;
+          height: 40px;
+      }
+      
+      .center-t{
+          max-width: 52.5rem;
+          color: #1b1b1b;
+      }
+
+      /* ------------------------------images pages css------------------------ */
+
+     .equql{
+       width: 400px;
+       height: 400px;
+       overflow: hidden;
+       padding: 10px 10px 5px 10px;
+      }
+     .equql img{
+     object-fit: cover;
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+     padding: 0px 10px 10px 10px;
+    }
+
