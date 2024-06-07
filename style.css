@@ -92,11 +92,7 @@ img{
 
 /* sana section */
     section.m-nasa-img .card{
-     width: 100%;
      height: 281px;
-     overflow: hidden;
-     box-sizing: border-box;
-     border: none;
      }
      section.m-nasa-img .card a{
          border: 2px solid transparent;
